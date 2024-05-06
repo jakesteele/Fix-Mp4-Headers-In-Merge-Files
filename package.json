@@ -1,0 +1,14 @@
+{
+  "name": "recording-cli",
+  "version": "1.0.0",
+  "description": "Jake is the best around",
+  "main": "app.ts",
+  "scripts": {
+    "run": "tsc app.ts && node app.js /Users/jake.steele/Downloads/Recordings"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.12.9"
+  }
+}
