@@ -19,7 +19,7 @@ function processFiles() {
     files.forEach((fileName) => {
       if (path.extname(fileName) === ".merged") {
         const fileNameNoExt = fileName.replace(".merged", ".mp4");
-        // const filePathMerged = path.join(currentDirectory, `merged.mp4`);
+
         const filePathOutput = path.join(currentDirectory, fileNameNoExt);
 
         if (fs.existsSync(filePathOutput)) fs.unlinkSync(filePathOutput);

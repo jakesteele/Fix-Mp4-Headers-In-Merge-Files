@@ -4,7 +4,7 @@
   "description": "Jake is the best around",
   "main": "app.ts",
   "scripts": {
-    "run": "tsc app.ts && node app.js /Users/jake.steele/Downloads/Recordings"
+    "run": "tsc app.ts && node app.js"
   },
   "author": "",
   "license": "ISC",
